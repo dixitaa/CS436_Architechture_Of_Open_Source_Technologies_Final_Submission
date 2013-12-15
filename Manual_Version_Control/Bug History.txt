@@ -1,0 +1,35 @@
+Bug History
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Bug Number						Description 					Fix Description										Status
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+One								Application freeze				The Tkinter.destroy() 								Resolved		
+								when the main window			method was added to the 
+								was closed						shutdown sequence
+
+Two 							Proxy server accepts			Added server shutdown to 							Resolved
+								connections, after the 			the window shutdown sequence 				
+								main window is closed
+
+Three 							Complete data not sent 			NOT A BUG, the content-length 						Resolved
+								after its tampered with			header should be changed as 
+																tampering changes its value
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Unresolved bugs:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Bug Number						Description 				 	Probable Fix Description 							Status
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+One 							Application freeze when 		Fix parent and child issues							In Progress
+								the main window is closed		between the two windows
+								before the PacketInspection
+								window
+
+Two 							Server sends error 500, when 	No clue 											Cause yet to be identified
+								only one word is entered
+								in the address bar, however
+								no problem noticed when more
+								than one word is entered or the
+								address is entered

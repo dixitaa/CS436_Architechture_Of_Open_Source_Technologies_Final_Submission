@@ -1,0 +1,36 @@
+
+Initial Problem Statement 														Estimated Completion Time
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+a. Monitor all the HTTP traffic on any interface (Without any filters)			3-4 Weeks
+
+b. Allow for tampering of the HTTP packets										
+
+The second release would add:
+
+a. Decryption and inspection of HTTPs packets									2-3 Weeks
+
+
+
+Revised Problem Statement														Reason for change											Completed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+a. Build a Proxy server for HTTP packets 										Problem statement ka understanding Problem 					Yes, see comments
+
+b. Extend the Built server for HTTPS packets									NA															No, see comments
+
+c. Add support for enabling break points, simple 								NA 															Yes
+   breakpoint after recieving each packet is enough
+
+d. Add support for Tampering of packets 										NA 															Yes 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Comments:
+----------------------------------------------------
+
+a. The HTTP Proxy server initially built had performance issues and hence was scrapped, see the presentation for more details
+
+b. Extension to HTTPS was abandoned since the previous step was not completed to the required standards
+
+c. All the goals were accomplished, YAY!

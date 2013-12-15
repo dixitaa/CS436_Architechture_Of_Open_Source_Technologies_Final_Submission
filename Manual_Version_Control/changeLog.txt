@@ -1,0 +1,64 @@
+This file contains the list of important changes recorded
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Change Number			Forked from 			New File Name			Change Description					Completed		Probable Completion on
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+one						proxy.py 				proxy_r0.py 			Just a working copy, forked 		Yes				NA
+																		from:https://github.com/luug
+																		iathuy/WebProxyPython
+
+two						proxy_r0.py 			proxy_r1.py  			Changed threading libraries 		Yes				NA
+																		from thread to threading.Thread
+
+three					-						Logger.py 				Added a Logger class				Yes				NA
+
+four					Logger.py 				Logger_r1.py 			Added logging support to alr		Yes				NA
+																		eady open files
+
+five					proxy_r1.py 			proxy_r2.py 			Tried to handle gzip uncompre		Yes 			NA				
+																		ssion, not yet successful, wi
+																		ll solve later
+
+six						proxy_r1.py 			proxy_r3.py 			Added support for SSL sockets		Yes 			NA
+
+seven					proxy_r3.py 			proxy_r4.py 		    Added the ArgParse module for 		Yes				NA
+																		better command line parsing			
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: This development branch has been abandoned due to poor performance
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+one						proxy.py 				proxy_2_r0.py 			Just a working copy, forked       	Yes				NA
+																		from https://github.com/allf
+																		ro/pymiproxy
+
+two						proxy_2_r0.py 			proxy_2_r1.py 			Removed MitmProxyHandler class, 	Yes				NA
+																		since extending the proxy using
+																		plugins was chosen, instead of 
+																		extending the ProxyHandler class
+
+three 					-						ArgumentParser.py 		Command Line argument parser used   Yes				NA
+																		from the previous branch, minor
+																		changes to CLAs made
+
+four 					-						GraphicsEngine.py 		Handles all the rendering of		Yes				NA 
+																		Graphics, used from the sniffer
+																		built earlier
+
+five 					-						GlobalData.py 			Contains shared data structures		Yes 			NA
+																		used for inter-thread comms																		
+six 					- 						Properties.py 			Contains all the state variables    Yes   			NA
+																		the application uses
+
+seven					proxy_2_r1.py 			proxy_2_r2.py 			Modified the do_Request and       	Yes 			NA
+																		do_Response methods of the 
+																		DebugInterceptor and Connected
+																		it to the GUI.
+																		Also added support for break-
+																		points
+
+eight 					proxy_2_r2.py 			proxy_2_r3.py 			Added documentation comments 		Yes 			NA
+
+nine					-						configure.sh 			Adds support for automatic			Yes 			NA 
+																		configuration
+																		NOTE: Works only for Linux
+-----------------------------------------------------------------------------------------------------------------------------------------------------------

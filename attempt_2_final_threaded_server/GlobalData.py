@@ -1,0 +1,1 @@
+global SyncDictionary       #Shared Dictionary where all the interesting stuff happens
